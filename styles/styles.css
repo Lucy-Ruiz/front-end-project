@@ -10,6 +10,7 @@ html{
     box-sizing: border-box;
     font-size: 62.5%;
     font-family: 'Arial'
+    
 }
  
 body{
@@ -29,13 +30,12 @@ nav a{
 
 nav ul{
     list-style-type: none;
-    color: black;
+    text-decoration: none;
 }
 
-ul{
-    list-style-type:none;
-    margin: 0;
-    padding: 0;
+nav li{
+    display: inline;
+    margin-left: 0.5rem;
 }
 
 li{
@@ -47,30 +47,53 @@ li a{
     padding: 14px 16px;
 }
 
+main section{
+    margin: 1rem auto;
+    width: 90%;
+}
+
 .my-class{
     color:red;
 }
 
 .Home{}
 
-.About{}
+.About .AboutImageVase1{
+    float: left;
+    margin-right: 3rem;
+}
 
-.AboutImageVase1{}
-.AboutImageVase2{}
+.About .AboutImageVase2{
+    float: right;
+}
+
+.Products{
+}
 
 
-.Products{}
+.MundoBowls{
+    
+}
 
-.Contact{}
+.NaturezaVase{
+    
+}
 
-.MundoBowls{}
+.FeiraBowls{
+    
+}
 
-.NaturezaVase{}
+.NaturezaPots{
+    
+}
 
-.FeiraBowls{}
-
-.NaturezaPots{}
+.Contact{
+    
+}
 
 footer{
     background-color: #BF7631;
+    text-align: right;
+    padding: 3rem;
+    text-decoration: none;
 }
