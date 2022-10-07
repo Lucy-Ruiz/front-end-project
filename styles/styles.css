@@ -14,6 +14,22 @@ html{
  
 body{
     font-family: 'Arial';
+    background-color: white;
+}
+
+header{
+    background-color: white;
+    position: relative;
+    padding: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav ul{
+    list-style-type: none;
+    color: black;
 }
 
 ul{
@@ -33,5 +49,28 @@ li a{
 
 .my-class{
     color:red;
-    font-family: 'Arial'
+}
+
+.Home{}
+
+.About{}
+
+.AboutImageVase1{}
+.AboutImageVase2{}
+
+
+.Products{}
+
+.Contact{}
+
+.MundoBowls{}
+
+.NaturezaVase{}
+
+.FeiraBowls{}
+
+.NaturezaPots{}
+
+footer{
+    background-color: #BF7631;
 }
