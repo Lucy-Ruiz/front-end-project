@@ -1,17 +1,37 @@
 *,
 *::before,
-*::after {
+*::after{
     margin: 0;
     padding: 0;
     box-sizing: inherit;
 }
 
-html {
+html{
     box-sizing: border-box;
     font-size: 62.5%;
+    font-family: 'Arial'
+}
+ 
+body{
+    font-family: 'Arial';
 }
 
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
 
-.my-class {
-    color:aqua;
+li{
+    float:left
+}
+
+li a{
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.my-class{
+    color:red;
+    font-family: 'Arial'
 }
