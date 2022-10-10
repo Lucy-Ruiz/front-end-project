@@ -70,9 +70,16 @@ main section{
 .Products{
 }
 
+.AllProducts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 
 .MundoBowls{
-    
+    height: 500;
+    width: 500;
 }
 
 .NaturezaVase{
@@ -96,4 +103,8 @@ footer{
     text-align: right;
     padding: 3rem;
     text-decoration: none;
+}
+
+.footer-list{
+    list-style-type: none;
 }
